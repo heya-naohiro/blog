@@ -9,8 +9,7 @@ date = 2024-03-25
 - このドメイン(syurenyanko.com)のドメインを活用したかったので
 
 ## 2. どのように
-- 公式tutorial
-https://www.getzola.org/documentation/getting-started/overview/
+- [公式tutorial](https://www.getzola.org/documentation/getting-started/overview/)
 - githubにpushして
 - Cloudflare PagesでRepositoryと連携してデプロイ
 
