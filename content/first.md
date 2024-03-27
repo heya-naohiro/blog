@@ -1,6 +1,10 @@
 +++
-title = "My first post"
-date = 2019-11-27
+title = "Template Test"
+date = 2024-03-03
 +++
 
-This is my first blog post.
+template check
+
+Picture
+
+{{ image(path="/IMG_0180_resize.jpg") }}

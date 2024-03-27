@@ -1,0 +1,3 @@
+```shell
+zola serve
+```
