@@ -4,14 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>log</title>
+    <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) | safe }}">
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
-            {% block content %} {% endblock %}
-        </div>
-    </section>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="{{ config.base_url }}">&lt;&lt; log</a>
+                <span class="cursor"></span>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="container">
+                {% block content %} {% endblock %}
+            </div>
+        </section>
+        <footer>
+            <span>© 2024 Naohiro Heya All rights reserved.</span>
+            ::
+            <span>Made by <a href="https://www.getzola.org/">Zola</a></span>
+        </footer>
+    </div>
 </body>
 
 </html>
