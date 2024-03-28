@@ -8,3 +8,9 @@ template check
 Picture
 
 {{ image(path="/IMG_0180_resize.jpg") }}
+
+```rust
+fn main() {
+    print!("Hello, World");
+}
+```
