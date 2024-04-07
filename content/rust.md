@@ -1,11 +1,11 @@
 +++
-title = "ポエム: 自分が普段使っている何か、と同じものを１からプログラミングしてみるという体験からしか得られない栄養素があった"
+title = "RustでMQTTブローカー作ってみたら世界が広がった"
 date = 2024-04-07
 +++
 
-## Rustに触れたら世界が広がった
+## RustでMQTTブローカー作ってみたら世界が広がった
 
-[講演動画：大きな問題のほうが小さな問題より解くのは簡単だ / Blue Whale Systems株式会社 植山 類氏](https://youtu.be/C4uKuNTMmcU?si=4kIOuzljdJRSgg7E)
+[講演動画：大きな問題のほうが小さな問題より解くのは簡単だ / Blue Whale Systems株式会社 植山 類氏](https://youtu.be/C4uKuNTMmcU?si=9muNve_fyiP5Y1IZ)
 
 [書籍：世界一流エンジニアの思考法 | 牛尾 剛](https://amzn.to/3VJP5Ow)
 
