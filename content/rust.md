@@ -44,5 +44,5 @@ MQTTは簡単なプロトコルだとも言われていますが、フルフル�
 
 ある程度規格に準拠するものを作ると世界と繋がれる感覚がして"インターネット"良いなぁと思いました。
 
-作ったやつは別に実用できるものでもありませんが一応置いておきます。( [mqtt broker](https://github.com/heya-naohiro/mqtt-server) )
+作ったやつはたぶん実用できるものでもありませんが一応置いておきます。( [mqtt broker](https://github.com/heya-naohiro/mqtt-server) )　いつかMQTTの解説を書いてみたい。
 
