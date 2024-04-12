@@ -117,3 +117,9 @@ https://doc.rust-jp.rs/book-ja/ch15-06-reference-cycles.html
 
 
 ### RefCall
+
+RefCellとは所有権のチェックを実行時のチェックに先送りするものである。つまり不変借用も可変借用も実行時にチェックされる。
+https://doc.rust-jp.rs/book-ja/ch15-05-interior-mutability.html
+
+borrow_mut
+とborrowの区別
