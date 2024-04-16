@@ -5,6 +5,7 @@ date = 2024-04-07
 
 - [講演動画：大きな問題のほうが小さな問題より解くのは簡単だ / Blue Whale Systems株式会社 植山 類氏](https://youtu.be/C4uKuNTMmcU?si=9muNve_fyiP5Y1IZ)
 - [書籍：世界一流エンジニアの思考法 | 牛尾 剛](https://amzn.to/3VJP5Ow)
+
 の２つから物事を正面から取り組む勇気を手に入れた。そして、業務でよく使っているプロトコル,MQTTを扱うアプリケーション、MQTTブローカーを実装してみようと思った。それが出来るのでは？と感じさせる公式チュートリアルがとても良かった。
 - [Rust the book Chapter 20: Final Project: Building a Multithreaded Web Server](https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html)
 → HTTPって実装できるんだ...
