@@ -12,7 +12,7 @@ date = 2024-04-07
 - [Tokio tutorial](https://tokio.rs/tokio/tutorial)
 → Redisのプロトコルって実装できるんだ...
 →MQTTを実装してみるか...
-- [mqtt broker](https://github.com/heya-naohiro/mqtt-server) 
+- [mqtt broker](https://github.com/heya-naohiro/mqtt-server) → できたのがこれ
 
 実際に仕様とにらめっこしながら実装を進めると世界が広がってすこしモヤモヤが晴れた。自己効力感が高まった。自分が普段使っている何か、と同じものを１から自分で作ってみるという体験からしか得られない栄養素があった。
 　MQTTは簡単なプロトコルだとも言われていますが、フルフルで実装しようとすると面倒な感じはします。本質的には非同期が難しいといった感じがします。でも、ある程度規格に準拠するものを作ると世界と繋がれる感覚がして"インターネット"良い
