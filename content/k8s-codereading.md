@@ -8,13 +8,13 @@ date = 2024-04-17
 雑に読んでいく,読んだ後に気づいたが、[自作して学ぶKubernetes Scheduler
 ](https://engineering.mercari.com/blog/entry/20211220-create-your-kube-scheduler/)が詳しい。
 
-ソース
-[https://github.com/kubernetes/kubernetes/blob/master/cmd/kube-scheduler/scheduler.go]
+
+<https://github.com/kubernetes/kubernetes/blob/master/cmd/kube-scheduler/scheduler.go>
 
 > スケジューリングの概要
 スケジューラーは新規に作成されたPodで、Nodeに割り当てられていないものを監視します。スケジューラーは発見した各Podのために、稼働させるべき最適なNodeを見つけ出す責務を担っています。そのスケジューラーは下記で説明するスケジューリングの原理を考慮に入れて、NodeへのPodの割り当てを行います。Podが特定のNodeに割り当てられる理由を理解したい場合や、カスタムスケジューラーを自身で作ろうと考えている場合、このページはスケジューリングに関して学ぶのに役立ちます。
 
-[https://kubernetes.io/ja/docs/concepts/scheduling-eviction/kube-scheduler/]
+<https://kubernetes.io/ja/docs/concepts/scheduling-eviction/kube-scheduler/>
 
 
 
@@ -27,14 +27,9 @@ func main() {
 }
 ```
 
-```
-The Kubernetes scheduler is a control plane process which assigns
-Pods to Nodes. The scheduler determines which Nodes are valid placements for
-each Pod in the scheduling queue according to constraints and available
-resources. The scheduler then ranks each valid Node and binds the Pod to a
-suitable Node. Multiple different schedulers may be used within a cluster;
-kube-scheduler is the reference implementation.
-```
+> The Kubernetes scheduler is a control plane process which assigns Pods to Nodes. The scheduler determines which Nodes are valid placements for each Pod in the scheduling queue according to constraints and available resources. The scheduler then ranks each valid Node and binds the Pod to a
+suitable Node. Multiple different schedulers may be used within a cluster; kube-scheduler is the reference implementation.
+
 
 > Kubernetesのスケジューラーは、コントロールプレーンのプロセスであり、Podをノードに割り当てます。スケジューラーは、制約や利用可能なリソースに応じて、スケジューリングキュー内の各Podに対して妥当な配置先のノードを決定します。その後、スケジューラーは各妥当なノードをランク付けし、Podを適切なノードにバインドします。クラスター内で複数の異なるスケジューラーを使用することができますが、kube-schedulerがそのリファレンス実装です。
 
