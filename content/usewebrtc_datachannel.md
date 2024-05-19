@@ -14,9 +14,9 @@ WebRTCでデータチャネルで双方向の通信を手を動かしてP2Pで�
 - [webrtc.rs](https://github.com/webrtc-rs/webrtc) (プロトコルスタックの図がわかりやすい)
 
 ## 構成
-- A: Webrtc.rs (https://github.com/webrtc-rs/webrtc) on Raspberry Pi
+- A: [Webrtc.rs](https://github.com/webrtc-rs/webrtc) on Raspberry Pi
 - B: Next.js/React on Chrome
-- C: TURN: Cloudflare (beta) (https://developers.cloudflare.com/calls/turn/)
+- C: [TURN: Cloudflare (beta)](https://developers.cloudflare.com/calls/turn/)
 ## CloudflareでTURN Serviceを作成
 Calls > Create: Tern Service Token
 {{ image(path="/2024-05-19.png") }}
@@ -34,7 +34,7 @@ ice_servers: vec![RTCIceServer {
 > ICE (Interactive Connectivity Establishment)とはNAT超えのためにSTUN/TURNのプロトコル選択のための仕組み
 
 ## B: Browser で書いたアプリケーション
-参考：(https://jsfiddle.net/swgxrp94/20/)
+参考：https://jsfiddle.net/swgxrp94/20/
 ```typescript
 "use client"
 
