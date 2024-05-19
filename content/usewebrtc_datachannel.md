@@ -1,5 +1,5 @@
 +++
-title = "webrtcのdatachannelを触ってみる"
+title = "WebRTCのdata channelを触ってみる"
 date = 2024-05-18
 draft = false
 +++
@@ -33,7 +33,7 @@ ice_servers: vec![RTCIceServer {
 
 > ICE (Interactive Connectivity Establishment)とはNAT超えのためにSTUN/TURNのプロトコル選択のための仕組み
 
-## B: Browser で書いたアプリケーション
+## B: TypeScript で書いたアプリケーション
 参考：https://jsfiddle.net/swgxrp94/20/
 ```typescript
 "use client"
@@ -221,7 +221,7 @@ P2Pで通信するために互いにSDPを交換する必要がある。今回�
 - B:Browserに入力して、表示されるSDPをコピー
 - A:Rustに入力
 
-実際の製品ではネットワーク経由でもっと凝った方法をでExchangeして経路とプロトコルを決定する。
+実際の製品ではネットワーク経由で交換してもっと凝った方法で経路とプロトコルを決定する。
 
 
 ## Result
