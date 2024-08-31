@@ -14,7 +14,7 @@ MQTT over websocketの通信のkeepaliveを見る
 - ソースコードは下記の改変
 <https://qiita.com/emqx_japan/items/31472d22e9a2cad36dd8>
 
-```go:client.go
+```go
 package main
 
 import (
